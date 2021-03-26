@@ -5,7 +5,7 @@ import time
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 def test_is_add_to_basket_btn_presents(browser):
-    print('\nTest_begins')
+    print('\nTest_begins!')
     browser.get(link)
     time.sleep(30)
     browser.implicitly_wait(5)
